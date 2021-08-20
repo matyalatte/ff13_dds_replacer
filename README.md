@@ -27,7 +27,7 @@ imgb_replace.exe %imgb% %old_dds% %new_dds% --overwrite
 
 ### notation
 + 2 DDS files should be the same file size. (So, you can't change the resolution with this tool.)
-+ When you edit DDS images, you should check export options carefully. It might change the file size.
++ When you edit DDS images with an image editor like GIMP, you should check export options carefully. It might change the file size.
 + This tool will work fine with FF13-2 and LRFF13. (I haven't test, though)
 
 ## How to Get DDS
