@@ -1,4 +1,4 @@
-#FF13 DDS replacer for imgb by MatyaModding
+#FF13 DDS replacer for imgb by MatyaModding (2021/08/21)
 
 import argparse,os
 
@@ -102,12 +102,14 @@ if __name__=="__main__":
         print_("done!", silent)
 
     except FileNotFoundError as e:
-        print_args(args)
+        if silent:
+            print_args(args)
         print(e.args[1])
         print("DDS replacement is canceled.")
 
     except Exception as e:
-        print_args(args)
+        if silent:
+            print_args(args)
         print("ERROR: "+e.args[0])
         print("DDS replacement is canceled.")
 
