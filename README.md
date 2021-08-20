@@ -1,7 +1,7 @@
 # ff13_dds_replacer
-Reimports DDS textures from imgb (image resources of final fantasy 13)
+Reimports DDS textures from imgb (image resources of final fantasy 13)<br>
 <br>
-
+<img src=replace_c002C_01.png width=480>
 ## Usage
 `imgb_replace.exe imgb old_dds new_dds`
 + imgb: imgb file you want to edit
@@ -13,8 +13,8 @@ Reimports DDS textures from imgb (image resources of final fantasy 13)
 ### example
 
 ```
-set imgb=c201\bin\c201.win32.imgb
-set old_dds=c201\bin\c001C_01.dds
+set imgb=c202\bin\c202.win32.imgb
+set old_dds=c202\bin\c002C_01.dds
 set new_dds=mod.dds
 
 imgb_replace.exe %imgb% %old_dds% %new_dds% --overwrite
@@ -42,7 +42,7 @@ Here is an example.
 
 ```
 set ff13filepath=D:\SteamLibrary\steamapps\common\FINAL FANTASY XIII\
-set file=chr\pc\c201\bin\c201.win32
+set file=chr\pc\c202\bin\c202.win32
 ff13tool -i -ff13 "%ff13filepath%white_data\sys\filelist_scrc.win32.bin" "%ff13filepath%white_data\sys\white_scrc.win32.bin" %file%.imgb
 ff13tool -i -ff13 "%ff13filepath%white_data\sys\filelist_scrc.win32.bin" "%ff13filepath%white_data\sys\white_scrc.win32.bin" %file%.trb
 ```
