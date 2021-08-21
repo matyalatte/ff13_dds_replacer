@@ -22,7 +22,7 @@ imgb_replace.exe %imgb% %old_dds% %new_dds% --overwrite
 
 ### how it works
 
-1. search imgb and find the same binary data as old_dds
+1. open imgb and find the same binary data as old_dds
 2. replace the binary data with new_dds
 
 ### notation
