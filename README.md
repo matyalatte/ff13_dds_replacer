@@ -1,5 +1,5 @@
 # ff13_dds_replacer
-Reimports DDS textures from imgb (image resources of Final Fantasy 13)<br>
+Reimports DDS textures to imgb (image resources of Final Fantasy 13)<br>
 <br>
 <img src=replace_c002C_01.png width=480>
 ## Usage
